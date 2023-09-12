@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5E60DE25-F54C-4931-B138-225098D65764}</ProjectGuid>
+    <ProjectGuid>{D6D8A1D2-1D1C-442B-A564-3FAB7A9D8395}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Tyuiu.MedvedevKA.Sprint0.Task5.V0</RootNamespace>
     <AssemblyName>Tyuiu.MedvedevKA.Sprint0.Task5.V0</AssemblyName>
@@ -48,12 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.MedvedevKA.Sprint0.Task5.V0.Lib\Tyuiu.MedvedevKA.Sprint0.Task5.V0.Lib.csproj">
-      <Project>{b1809def-fe3f-4ae8-b059-9a68f79cb065}</Project>
-      <Name>Tyuiu.MedvedevKA.Sprint0.Task5.V0.Lib</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
